@@ -1,0 +1,2 @@
+# 被其他项目引用这个starter时，其他项目启动时，就会扫描EncryptConfig这个类，然后根据条件注入到容器中
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.lzhcoder.encryption.config.EncryptConfig
